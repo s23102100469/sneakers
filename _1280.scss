@@ -1,0 +1,20 @@
+
+
+.swiper {
+    width: 100%;
+
+    & .swiper-wrapper {
+        width: 100%;
+    }
+
+    
+    & .swiper-slide {
+        text-align: center;
+
+        & img {
+            width: 60%;
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+}

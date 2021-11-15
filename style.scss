@@ -1,0 +1,15 @@
+@import 'breakpoints/base';
+
+@media screen and(min-width: 480px){
+    @import 'breakpoints/480';
+}
+
+@media screen and(min-width: 600px){
+    @import 'breakpoints/600';
+}
+@media screen and(min-width: 960px){
+    @import 'breakpoints/960';
+}
+@media screen and(min-width: 1280px){
+    @import 'breakpoints/1280';
+}

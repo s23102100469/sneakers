@@ -1,0 +1,49 @@
+.main {
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__content {
+        width: 30%;
+    }
+
+    &__h2 {
+        font-size: 35px;
+    }
+}
+
+.swiper {
+    width: 100%;
+
+    & .swiper-wrapper {
+        width: 100%;
+    }
+
+    
+    & .swiper-slide {
+        text-align: center;
+
+        & img {
+            width: 70%;
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.footer {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        width: 48%;
+    }
+
+    &__message {
+        width: 48%;
+    }
+}
